@@ -12,6 +12,9 @@ import android.os.IBinder;
 
 public class PlaybackService extends Service {
 
+public static final String PLAY = "com.bassbeats.player.PLAY";
+public static final String TOGGLE = "com.bassbeats.player.TOGGLE";
+    
     private MediaSession session;
 
     @Override
